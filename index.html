@@ -1,112 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ahmed Abdelmongy — Intelligent Agents e-Portfolio</title>
-    <meta name="description" content="MSc AI e-Portfolio: Intelligent Agents Module, University of Essex Online." />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-  </head>
-  <body class="is-preload">
-    <div id="wrapper">
-      <!-- Header -->
-      <header id="header" class="alt style2">
-        <a href="index.html" class="logo"><strong>Ahmed</strong> <span>Abdelmongy</span></a>
-        <nav><a href="#menu">Menu</a></nav>
-      </header>
-
-      <!-- Menu -->
-      <nav id="menu">
-        <ul class="links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Machine-Learning.html">Machine Learning</a></li>
-          <li><a href="Intelligent.html">Intelligent Agents</a></li>
-        </ul>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ahmed Abdelmongy — Intelligent Agents e-Portfolio</title>
+<meta name="description" content="MSc AI e-Portfolio: Intelligent Agents Module, University of Essex Online." />
+<style>
+  :root { --bg:#0b0f14; --card:#121821; --text:#e8edf1; --muted:#9fb0c4; --link:#8ec1ff; --accent:#6aa0ff; --border:#1d2733; }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--link);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{position:sticky;top:0;background:rgba(11,15,20,.8);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);z-index:10}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 18px}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:58px}
+  .brand{font-weight:700}
+  .banner{background:linear-gradient(180deg, rgba(106,160,255,.18), transparent 50%), url('images/pic07.jpg') center/cover no-repeat; border-bottom:1px solid var(--border)}
+  .banner .wrap{padding:48px 18px}
+  h1{margin:0 0 6px;font-size:28px}
+  .subtitle{margin:0;color:var(--muted)}
+  main .wrap{padding:28px 18px}
+  details{background:var(--card);border:1px solid var(--border);border-radius:14px;margin:14px 0;overflow:hidden}
+  details>summary{cursor:pointer;list-style:none;font-weight:700;padding:14px 16px;background:rgba(255,255,255,.02)}
+  details[open]>summary{border-bottom:1px solid var(--border)}
+  details section, .section{padding:14px 16px}
+  .links a{display:inline-block;margin:6px 10px 0 0;padding:8px 10px;border:1px solid var(--border);border-radius:10px;background:rgba(255,255,255,.02)}
+  footer{border-top:1px solid var(--border)}
+  footer .wrap{padding:22px 18px;color:var(--muted)}
+  .grid{display:grid;gap:14px}
+  @media(min-width:780px){ .grid{grid-template-columns:1fr 1fr} }
+  .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+  .small{font-size:14px}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">Ahmed Abdelmongy</div>
+      <nav class="small">
+        <a href="https://github.com/ahmedabdelmongy/Intelligent-Agents-ePortfolio" target="_blank">Repo</a>
       </nav>
-
-      <!-- Banner -->
-      <section id="banner" class="style2">
-        <div class="inner">
-          <span class="image"><img src="images/pic07.jpg" alt="Banner" /></span>
-          <header class="major">
-            <h1>Intelligent Agents e-Portfolio</h1>
-          </header>
-          <div class="content">
-            <p>
-              <strong>GitHub Repository:</strong>
-              <a href="https://github.com/ahmedabdelmongy/Intelligent-Agents-ePortfolio" target="_blank">View Repo</a>
-            </p>
-            <ul>
-              <li>Critical analysis of agent-based systems and architectures.</li>
-              <li>Application of intelligent agent techniques to real-world problems.</li>
-              <li>Deployment of software tools for ethical and professional implementation.</li>
-              <li>Team collaboration in virtual environments.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Main content -->
-      <div id="main" class="inner">
-        <details open>
-          <summary><h2>Unit 6 – Development Team Project</h2></summary>
-          <p><a href="documents/unit6-project-report.pdf" download>📄 Project Report</a></p>
-          <p><a href="code/unit6-project-code.zip" download>📦 Project Python Code (ZIP)</a></p>
-          <p><a href="documents/unit6-weekly-meeting-notes.pdf" download>🗒 Weekly Meeting Notes</a></p>
-          <p><a href="documents/unit6-peer-review-individual.pdf" download>📄 Peer Review (Individual)</a></p>
-        </details>
-
-        <details>
-          <summary><h2>Unit 11 – Individual Presentation</h2></summary>
-          <p><a href="documents/unit11-presentation.pdf" download>📽 Presentation Slides</a></p>
-          <p><a href="documents/unit11-transcript.docx" download>📝 Transcript</a></p>
-        </details>
-
-        <details>
-          <summary><h2>Unit 12 – Final e-Portfolio Submission</h2></summary>
-          <p><a href="documents/final-eportfolio-report.pdf" download>📄 Final Report</a></p>
-          <p><a href="documents/reflection-1000-words.docx" download>📄 Reflection (DOCX)</a></p>
-          <p><a href="documents/reflection-1000-words.pdf" download>📄 Reflection (PDF)</a></p>
-        </details>
-
-        <details>
-          <summary><h2>Discussion Posts & Evidence</h2></summary>
-          <ul>
-            <li><a href="documents/unit1-initial-post.pdf" download>Unit 1 – Initial Post</a></li>
-            <li><a href="documents/unit2-peer-responses-to-colleagues.pdf" download>Unit 2 – Responses to Colleagues</a></li>
-            <li><a href="documents/unit2-peer-responses-from-colleagues.pdf" download>Unit 2 – Responses from Colleagues</a></li>
-            <li><a href="documents/unit3-summary-post.pdf" download>Unit 3 – Summary Post</a></li>
-            <li><a href="documents/unit4-team-contract.pdf" download>Unit 4 – Team Contract</a></li>
-            <li><a href="documents/unit5-initial-post.pdf" download>Unit 5 – Initial Post</a></li>
-            <li><a href="documents/unit7-summary-post.pdf" download>Unit 7 – Summary Post</a></li>
-            <li><a href="documents/unit8-creating-parse-trees.pdf" download>Unit 8 – Creating Parse Trees</a></li>
-            <li><a href="documents/unit9-initial-post.pdf" download>Unit 9 – Initial Post</a></li>
-            <li><a href="documents/unit10-peer-responses-to-colleagues.pdf" download>Unit 10 – Responses to Colleagues</a></li>
-            <li><a href="documents/unit10-peer-responses-from-colleagues.pdf" download>Unit 10 – Responses from Colleagues</a></li>
-            <li><a href="documents/unit10-deep-learning-in-action.pdf" download>Unit 10 – Deep Learning in Action</a></li>
-            <li><a href="documents/unit11-summary-post.pdf" download>Unit 11 – Summary Post</a></li>
-          </ul>
-        </details>
-      </div>
-
-      <footer id="footer">
-        <p class="copyright">
-          © <span id="year"></span> Ahmed Abdelmongy | Built with Forty by HTML5 UP
-        </p>
-      </footer>
     </div>
+  </header>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </body>
+  <section class="banner">
+    <div class="wrap">
+      <h1>Intelligent Agents e-Portfolio</h1>
+      <p class="subtitle">University of Essex Online · MSc AI</p>
+      <p class="small">Critical analysis of agent systems · Real-world applications · Ethical practice · Team collaboration</p>
+      <p><a class="btn small" href="documents/final-eportfolio-report.pdf" download>📄 Final Report</a> <a class="btn small" href="documents/reflection-1000-words.pdf" download>📝 Reflection</a></p>
+    </div>
+  </section>
+
+  <main>
+    <div class="wrap">
+
+      <details open>
+        <summary>Unit 6 — Development Team Project</summary>
+        <section class="grid">
+          <div class="section">
+            <p><a href="documents/unit6-project-report.pdf" download>📄 Project Report</a></p>
+            <p><a href="code/unit6-project-code.zip" download>📦 Project Python Code (ZIP)</a></p>
+          </div>
+          <div class="section">
+            <p><a href="documents/unit6-weekly-meeting-notes.pdf" download>🗒️ Weekly Meeting Notes</a></p>
+            <p><a href="documents/unit6-peer-review-individual.pdf" download>📄 Peer Review (Individual)</a></p>
+          </div>
+        </section>
+      </details>
+
+      <details>
+        <summary>Unit 11 — Individual Presentation</summary>
+        <section class="grid">
+          <div class="section"><a href="documents/unit11-presentation.pdf" download>📽️ Presentation Slides</a></div>
+          <div class="section"><a href="documents/unit11-transcript.docx" download>📝 Transcript (DOCX)</a></div>
+        </section>
+      </details>
+
+      <details>
+        <summary>Unit 12 — Final e-Portfolio Submission</summary>
+        <section class="grid">
+          <div class="section"><a href="documents/final-eportfolio-report.pdf" download>📄 Final Report (PDF)</a></div>
+          <div class="section"><a href="documents/reflection-1000-words.docx" download>📄 Reflection (DOCX)</a></div>
+          <div class="section"><a href="documents/reflection-1000-words.pdf" download>📄 Reflection (PDF)</a></div>
+        </section>
+      </details>
+
+      <details>
+        <summary>Discussion Posts & Evidence</summary>
+        <section class="links">
+          <a href="documents/unit1-initial-post.pdf" download>Unit 1 — Initial Post</a>
+          <a href="documents/unit2-peer-responses-to-colleagues.pdf" download>Unit 2 — Responses to Colleagues</a>
+          <a href="documents/unit2-peer-responses-from-colleagues.pdf" download>Unit 2 — Responses from Colleagues</a>
+          <a href="documents/unit3-summary-post.pdf" download>Unit 3 — Summary Post</a>
+          <a href="documents/unit4-team-contract.pdf" download>Unit 4 — Team Contract</a>
+          <a href="documents/unit5-initial-post.pdf" download>Unit 5 — Initial Post</a>
+          <a href="documents/unit7-summary-post.pdf" download>Unit 7 — Summary Post</a>
+          <a href="documents/unit8-creating-parse-trees.pdf" download>Unit 8 — Creating Parse Trees</a>
+          <a href="documents/unit9-initial-post.pdf" download>Unit 9 — Initial Post</a>
+          <a href="documents/unit10-peer-responses-to-colleagues.pdf" download>Unit 10 — Responses to Colleagues</a>
+          <a href="documents/unit10-peer-responses-from-colleagues.pdf" download>Unit 10 — Responses from Colleagues</a>
+          <a href="documents/unit10-deep-learning-in-action.pdf" download>Unit 10 — Deep Learning in Action</a>
+          <a href="documents/unit11-summary-post.pdf" download>Unit 11 — Summary Post</a>
+        </section>
+      </details>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap small">© <span id="year"></span> Ahmed Abdelmongy — All rights reserved.</div>
+  </footer>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
 </html>

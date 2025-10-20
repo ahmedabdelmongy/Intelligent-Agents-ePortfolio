@@ -1,1 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ahmed Abdelmongy — Intelligent Agents e‑Portfolio</title>
+    <meta name="description" content="MSc AI e‑Portfolio covering Units 1–12, evidence, and 1000‑word reflection." />
+    <!-- Forty by HTML5 UP assets (assumes assets/ present in repo) -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+      <!-- Header (style must match banner class) -->
+      <header id="header" class="alt style2">
+        <a href="index.html" class="logo"><strong>Ahmed</strong> <span>Abdelmongy</span></a>
+        <nav>
+          <a href="#menu" aria-label="Open menu">Menu</a>
+        </nav>
+      </header>
 
+      <!-- Menu -->
+      <nav id="menu" aria-label="Primary">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Machine-Learning.html">Machine Learning</a></li>
+          <li><a href="Intelligent.html" aria-current="page">Intelligent Agents</a></li>
+          <li><a href="https://github.com/AhmedAbdelmongy" target="_blank" rel="noopener">GitHub Profile</a></li>
+        </ul>
+        <ul class="actions stacked">
+          <li><a href="#contact" class="button primary fit">Contact</a></li>
+          <li><a href="https://github.com/AhmedAbdelmongy/Intelligent-Agents-ePortfolio" target="_blank" rel="noopener" class="button fit">View Repo</a></li>
+        </ul>
+      </nav>
+
+      <!-- Banner (class matches header alt style2) -->
+      <section id="banner" class="style2">
+        <div class="inner">
+          <span class="image">
+            <img src="images/pic07.jpg" alt="Abstract technology banner" />
+          </span>
+          <header class="major">
+            <h1>Intelligent Agents</h1>
+          </header>
+          <div class="content">
+            <p class="major">MSc AI — University of Essex Online</p>
+            <p>
+              <strong>e‑Portfolio Link:</strong>
+              <a href="https://github.com/AhmedAbdelmongy/Intelligent-Agents-ePortfolio" target="_blank" rel="noopener">github.com/AhmedAbdelmongy/Intelligent-Agents-ePortfolio</a>
+            </p>
+            <ul>
+              <li>Identify and critically analyse agent-based systems and architectures.</li>
+              <li>Apply and evaluate intelligent agent techniques for real-world problems under uncertainty.</li>
+              <li>Deploy appropriate tools to design/implement agent systems with legal, ethical, and professional awareness.</li>
+              <li>Work effectively as a virtual development team member with real-life role perspectives.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main -->
+      <div id="main" class="inner">
+        <!-- Helper: Put all PDFs in /documents and code in /code to keep links working -->
+
+        <!-- Unit 1 -->
+        <details>
+          <summary><h2>Unit 1: Introduction to Agent-Based Computing</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Understand key concepts of agent-based computing.</li>
+              <li>Recognise trends that facilitated agents as a paradigm.</li>
+              <li>Compare types of agent-based systems and their merits.</li>
+            </ul>
+            <h3>Collaborative Discussion 1 — Agent-Based Systems</h3>
+            <p><a href="documents/unit1-initial-post.pdf" download>📄 Download Initial Post (PDF)</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 2 -->
+        <details>
+          <summary><h2>Unit 2: Introducing First-Order Logic</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Understand the core elements of first-order logic.</li>
+              <li>Create and reason over first-order logic.</li>
+            </ul>
+            <h3>Collaborative Discussion 1 — Responses</h3>
+            <p><a href="documents/unit2-peer-responses-to-colleagues.pdf" download>📄 Peer Responses to Colleagues (PDF)</a></p>
+            <p><a href="documents/unit2-peer-responses-from-colleagues.pdf" download>📄 Peer Responses from Colleagues (PDF)</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 3 -->
+        <details>
+          <summary><h2>Unit 3: Agent Architectures</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Critically evaluate a range of agent architectures.</li>
+              <li>Select an appropriate architecture for a given task.</li>
+              <li>Explain the difference between intentions and desires.</li>
+            </ul>
+            <h3>Collaborative Discussion 1 — Summary</h3>
+            <p><a href="documents/unit3-summary-post.pdf" download>📄 Download Summary Post (PDF)</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 4 -->
+        <details>
+          <summary><h2>Unit 4: Hybrid Agent Architectures</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Critically assess agent architectures.</li>
+              <li>Justify the selection of an appropriate architecture.</li>
+            </ul>
+            <h3>Team Project</h3>
+            <p><a href="documents/unit4-team-contract.pdf" download>📄 Team Contract (PDF)</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 5 -->
+        <details>
+          <summary><h2>Unit 5: Agent Communication</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Develop and work with ontologies.</li>
+              <li>Create inter-agent communications using relevant languages.</li>
+            </ul>
+            <h3>Collaborative Discussion 2 — Agent Communication Languages</h3>
+            <p><a href="documents/unit5-initial-post.pdf" download>📄 Initial Post (PDF)</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 6 -->
+        <details open>
+          <summary><h2>Unit 6: Working Together</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Develop dialogues using KQML/KIF or other agent communication languages.</li>
+              <li>Use ontologies as a means of knowledge sharing.</li>
+            </ul>
+            <h3>Discussion 2 — Agent Communication Languages</h3>
+            <p><a href="documents/unit6-peer-responses-to-colleagues.pdf" download>📄 Peer Responses to Colleagues</a></p>
+            <p><a href="documents/unit6-peer-responses-from-colleagues.pdf" download>📄 Peer Responses from Colleagues</a></p>
+
+            <h3>e‑Portfolio Element</h3>
+            <p><a href="documents/unit6-creating-agent-dialogues.pdf" download>📄 Creating Agent Dialogues</a></p>
+
+            <h3>Development Team Project</h3>
+            <p><a href="documents/unit6-team-contract.pdf" download>📄 Team Contract</a></p>
+            <p><a href="documents/unit6-project-report.pdf" download>📄 Project Report</a></p>
+            <p><a href="code/unit6-project-code.zip" download>📦 Project Python Code (ZIP)</a></p>
+            <p><a href="documents/unit6-weekly-meeting-notes.pdf" download>🗒️ Weekly Meeting Notes</a></p>
+            <p><a href="documents/unit6-peer-review-individual.pdf" download>📄 Peer Review (Individual)</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 7 -->
+        <details>
+          <summary><h2>Unit 7: Natural Language Processing (NLP)</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Evaluate difficulties in developing/deploying NLP systems.</li>
+              <li>Understand core principles of NLP technologies.</li>
+            </ul>
+            <h3>Discussion 2 — Summary</h3>
+            <p><a href="documents/unit7-summary-post.pdf" download>📄 Summary Post</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 8 -->
+        <details>
+          <summary><h2>Unit 8: Understanding NLP</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Explain key elements of NLP models.</li>
+              <li>Engage with worked examples of common NLP methods.</li>
+              <li>Develop parse trees to support NLP understanding.</li>
+            </ul>
+            <h3>e‑Portfolio Element</h3>
+            <p><a href="documents/unit8-creating-parse-trees.pdf" download>📄 Creating Parse Trees</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 9 -->
+        <details>
+          <summary><h2>Unit 9: Introduction to Adaptive Algorithms</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Understand the core concepts of artificial neural networks.</li>
+              <li>Appraise relative strengths of these techniques.</li>
+            </ul>
+            <h3>Collaborative Discussion 3 — Deep Learning</h3>
+            <p><a href="documents/unit9-initial-post.pdf" download>📄 Initial Post</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 10 -->
+        <details>
+          <summary><h2>Unit 10: Deep Learning in Action</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Understand technology development and current limitations.</li>
+              <li>Appraise products/services based on socio‑economic and ethical impacts.</li>
+              <li>Explain the importance of data in delivering these technologies.</li>
+            </ul>
+            <h3>Collaborative Discussion 3 — Responses</h3>
+            <p><a href="documents/unit10-peer-responses-to-colleagues.pdf" download>📄 Peer Responses to Colleagues</a></p>
+            <p><a href="documents/unit10-peer-responses-from-colleagues.pdf" download>📄 Peer Responses from Colleagues</a></p>
+            <h3>e‑Portfolio Element</h3>
+            <p><a href="documents/unit10-deep-learning-in-action.pdf" download>📄 Deep Learning in Action</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 11 -->
+        <details>
+          <summary><h2>Unit 11: Intelligent Agents in Action</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Apply concepts/theories to sector contexts.</li>
+              <li>Understand how technology drives efficiency.</li>
+              <li>Evaluate the merits of new approaches in context.</li>
+            </ul>
+            <h3>Discussion 3 — Summary</h3>
+            <p><a href="documents/unit11-summary-post.pdf" download>📄 Summary Post</a></p>
+            <h3>Individual Project — Presentation</h3>
+            <p><a href="documents/unit11-presentation.pdf" download>📽️ Presentation Slides (PDF)</a></p>
+            <p><a href="documents/unit11-transcript.docx" download>📝 Presentation Transcript (DOCX)</a></p>
+          </section>
+        </details>
+
+        <!-- Unit 12 -->
+        <details>
+          <summary><h2>Unit 12: The Future of Intelligent Agents</h2></summary>
+          <section>
+            <h3>Learning Outcomes</h3>
+            <ul>
+              <li>Appraise current technologies.</li>
+              <li>Assess potential evolution based on today’s examples.</li>
+              <li>Evaluate potential ethical and social considerations.</li>
+            </ul>
+            <h3>Individual e‑Portfolio Submission</h3>
+            <p><a href="documents/final-eportfolio-report.pdf" download>📄 Final Report (includes 1000‑word reflection)</a></p>
+          </section>
+        </details>
+
+        <!-- PDP -->
+        <details>
+          <summary><h2>Professional Skills Matrix & Action Plan (PDP)</h2></summary>
+          <section>
+            <p><a href="documents/pdp-skills-matrix-and-action-plan.pdf" download>📄 Professional Skills Matrix & Action Plan (PDF)</a></p>
+          </section>
+        </details>
+
+        <!-- Reflection (optional quick link) -->
+        <section>
+          <header class="major"><h2>Reflection (Quick Access)</h2></header>
+          <p>
+            <a class="button small" href="documents/reflection-1000-words.docx" download>Download 1000‑Word Reflection (DOCX)</a>
+            <a class="button small" href="documents/reflection-1000-words.pdf" download>Download 1000‑Word Reflection (PDF)</a>
+          </p>
+        </section>
+      </div>
+
+      <!-- Contact -->
+      <section id="contact" class="split">
+        <section>
+          <div class="contact-method">
+            <h3>Email</h3>
+            <a href="mailto:ahmed.abdelmongy@example.com">ahmed.abdelmongy@example.com</a>
+          </div>
+        </section>
+        <section>
+          <div class="contact-method">
+            <h3>GitHub</h3>
+            <a href="https://github.com/AhmedAbdelmongy" target="_blank" rel="noopener">github.com/AhmedAbdelmongy</a>
+          </div>
+        </section>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          Built with <a href="https://html5up.net/forty" target="_blank" rel="noopener">Forty by HTML5 UP</a> — © <span id="year"></span> Ahmed Abdelmongy.
+        </p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      // Small enhancement: current year in footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
